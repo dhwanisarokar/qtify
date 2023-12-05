@@ -26,6 +26,7 @@ export default function BasicTabs({ data, title, genreLists }) {
       <TabContext value={value}>
         <Box sx={{ width: "100%" }} className={styles.tabWrapper}>
           <TabList
+            className={styles.tabList}
             onChange={handleChange}
             aria-label="Genre Tab"
             TabIndicatorProps={{ className: styles.indicator }}
@@ -41,7 +42,7 @@ export default function BasicTabs({ data, title, genreLists }) {
               />
             ))}
           </TabList>
-          <TabPanel value={value}>
+          <TabPanel value={value} className={styles.tabPanel}>
             {!songsData?.length ? (
               <CircularProgress />
             ) : (

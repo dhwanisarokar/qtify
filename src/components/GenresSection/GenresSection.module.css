@@ -9,8 +9,13 @@
   margin-top: 18px;
 }
 
-.tabWrapper {
+.tabList {
   margin-left: 31px;
+}
+.tabPanel {
+  padding: 0;
+}
+.tabWrapper {
   .genreTab {
     color: var(--color-white);
   }
