@@ -1,27 +1,7 @@
 .herosection {
-  width: 100vw;
-  height: 270px;
-  padding: 20px;
-}
-
-.wrapper {
-  margin: auto;
-  width: 799px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-}
-
-.heroText {
+  gap: 20px;
   text-align: center;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.heroImg {
-  width: 212px;
-  height: 212px;
-  flex-shrink: 0;
 }

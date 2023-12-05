@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-inline: 31px;
+}
+
+.toggleText {
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+.wrapper {
+  padding: 0 20px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.cardWrapper {
+  margin-top: 18px;
+}

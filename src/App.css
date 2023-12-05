@@ -1,0 +1,4 @@
+.divider {
+  margin-block: 30px;
+  border: 1px solid var(--color-primary);
+}
