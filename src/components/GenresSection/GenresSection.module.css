@@ -13,7 +13,7 @@
   margin-left: 31px;
 }
 .tabPanel {
-  padding: 0;
+  padding: 0 !important;
 }
 .tabWrapper {
   .genreTab {
