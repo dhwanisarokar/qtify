@@ -1,4 +1,11 @@
 .search {
-  /* min-width: 24rem; */
+  min-width: 24rem;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .search {
+    min-width: 0rem;
+    position: relative;
+  }
 }
