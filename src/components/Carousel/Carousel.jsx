@@ -12,7 +12,7 @@ export default function Carousel({ data, componentRender }) {
         // style={{ padding: "0px 20px" }}
         initialSlide={0}
         slidesPerView={"auto"}
-        spaceBetween={40}
+        spaceBetween={30}
         allowTouchMove
       >
         <CarouselRightNavigation />

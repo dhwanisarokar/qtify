@@ -1,0 +1,30 @@
+.navbar {
+  background-color: var(--color-primary);
+  width: 100vw;
+  /* height: 74px; */
+  padding: 0 32px;
+}
+
+.column1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 74px;
+}
+
+.column2 {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .column1 {
+    .SearchBar {
+      display: none;
+    }
+  }
+
+  .column2 {
+    display: block;
+    width: 100vw;
+  }
+}
