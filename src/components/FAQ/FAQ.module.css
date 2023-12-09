@@ -1,0 +1,22 @@
+.faqAccordion {
+  background-color: var(--color-black) !important;
+  color: var(--color-white) !important;
+  border: 1px solid rgb(153, 153, 153);
+  margin-bottom: 20px;
+}
+
+.accordionWrapper {
+  padding: 10px 50px;
+  margin: 20px;
+}
+
+.accordionDetails {
+  background-color: rgb(29, 29, 29);
+}
+
+@media (max-width: 560px) {
+  .accordionWrapper {
+    padding: 10px;
+    margin: 10px;
+  }
+}

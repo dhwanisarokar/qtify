@@ -10,6 +10,7 @@ import {
   fetchTopAlbums,
 } from "./api/api";
 import "./App.css";
+import FAQ from "./components/FAQ/FAQ";
 
 function App() {
   const [topAlbums, setTopAlbums] = useState([]);
@@ -30,9 +31,8 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar />
+      <NavBar songs={songs} />
       <HeroSection />
-
       <div style={{ marginBlock: "30px" }}>
         <Section data={topAlbums} type="album" title="Top Albums" />
       </div>
@@ -44,6 +44,9 @@ function App() {
         <GenresSection data={songs} title="Songs" genreLists={genres} />
       </div>
       <hr className="divider" />
+      <div>
+        <FAQ />
+      </div>
     </div>
   );
 }
