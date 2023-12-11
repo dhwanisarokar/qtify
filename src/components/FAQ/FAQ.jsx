@@ -23,7 +23,7 @@ const faqlist = [
 export default function FAQ() {
   return (
     <div style={{ paddingBottom: "30px" }}>
-      <div style={{ textAlign: "center", fontSize: "50px" }}>
+      <div style={{ textAlign: "center", fontSize: "25px" }}>
         <h1>FAQs</h1>
       </div>
       <div className={styles.accordionWrapper}>

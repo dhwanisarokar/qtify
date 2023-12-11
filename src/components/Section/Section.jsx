@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import Styles from "./Section.module.css";
 import { Box, CircularProgress } from "@mui/material";
 import Card from "../Card/Card";
 import Carousel from "../Carousel/Carousel";
-// import BasicTabs from "../Tabs/Tabs";
+import Styles from "./Section.module.css";
 
 export default function Section({ title, data, type }) {
   const [carouselToggle, SetCarouselToggle] = useState(true);
@@ -14,7 +13,7 @@ export default function Section({ title, data, type }) {
   return (
     <div>
       <div className={Styles.header}>
-        <h3>{title}</h3>
+        <h3 style={{ fontSize: "20px" }}>{title}</h3>
         <h4 className={Styles.toggleText} onClick={handleToggle}>
           {carouselToggle ? "Show All" : "Collapse All"}
         </h4>

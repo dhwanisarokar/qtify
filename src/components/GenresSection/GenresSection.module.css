@@ -21,10 +21,5 @@
   }
   .selectedTab {
     color: var(--color-white) !important;
-    border-bottom-color: var(--color-primary) !important;
   }
-}
-
-.indicator {
-  background-color: var(--color-primary) !important;
 }

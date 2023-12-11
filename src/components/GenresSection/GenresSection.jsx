@@ -21,7 +21,7 @@ export default function BasicTabs({ data, title, genreLists }) {
   return (
     <div>
       <div className={styles.header}>
-        <h3>{title}</h3>
+        <h3 style={{ fontSize: "20px" }}>{title}</h3>
       </div>
       <TabContext value={value}>
         <Box sx={{ width: "100%" }} className={styles.tabWrapper}>
@@ -29,7 +29,7 @@ export default function BasicTabs({ data, title, genreLists }) {
             className={styles.tabList}
             onChange={handleChange}
             aria-label="Genre Tab"
-            TabIndicatorProps={{ className: styles.indicator }}
+            TabIndicatorProps={{ color: "primary" }}
           >
             {genreLists?.map((genre) => (
               <Tab
