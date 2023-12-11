@@ -33,10 +33,9 @@ function App() {
     <div className="App">
       <NavBar songs={songs} />
       <HeroSection />
-      <div style={{ marginBlock: "30px" }}>
+      <div className="albumsSection">
         <Section data={topAlbums} type="album" title="Top Albums" />
-      </div>
-      <div style={{ marginBlock: "30px" }}>
+
         <Section data={newAlbums} type="album" title="New Albums" />
       </div>
       <hr className="divider" />
