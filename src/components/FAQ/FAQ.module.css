@@ -3,6 +3,7 @@
   color: var(--color-white) !important;
   border: 1px solid rgb(153, 153, 153);
   margin-bottom: 20px;
+  border-radius: 4px !important;
 }
 
 .accordionWrapper {
@@ -11,7 +12,9 @@
 }
 
 .accordionDetails {
-  background-color: rgb(29, 29, 29);
+  background-color: var(--color-white);
+  color: var(--color-black);
+  border-radius: 0px 0px 4px 4px;
 }
 
 @media (max-width: 560px) {

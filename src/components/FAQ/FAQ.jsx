@@ -22,9 +22,9 @@ const faqlist = [
 
 export default function FAQ() {
   return (
-    <div>
-      <div style={{ textAlign: "center" }}>
-        <h1>FAQ</h1>
+    <div style={{ paddingBottom: "30px" }}>
+      <div style={{ textAlign: "center", fontSize: "50px" }}>
+        <h1>FAQs</h1>
       </div>
       <div className={styles.accordionWrapper}>
         {faqlist.map((item) => (
@@ -36,7 +36,7 @@ export default function FAQ() {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography style={{ fontSize: "1.1rem" }}>
+              <Typography style={{ fontSize: "20px" }}>
                 {item.summary}
               </Typography>
             </AccordionSummary>
